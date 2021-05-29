@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project-Builder-stage-IV-quiz-complete/static/css/main.1884b737.chunk.css",
+    "main.js": "/project-Builder-stage-IV-quiz-complete/static/js/main.b40180b8.chunk.js",
+    "main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/main.b40180b8.chunk.js.map",
+    "runtime-main.js": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.acaa61e0.js",
+    "runtime-main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.acaa61e0.js.map",
+    "static/js/2.c850ce04.chunk.js": "/project-Builder-stage-IV-quiz-complete/static/js/2.c850ce04.chunk.js",
+    "static/js/2.c850ce04.chunk.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/2.c850ce04.chunk.js.map",
+    "static/js/3.8dd02b08.chunk.js": "/project-Builder-stage-IV-quiz-complete/static/js/3.8dd02b08.chunk.js",
+    "static/js/3.8dd02b08.chunk.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/3.8dd02b08.chunk.js.map",
+    "index.html": "/project-Builder-stage-IV-quiz-complete/index.html",
+    "static/css/main.1884b737.chunk.css.map": "/project-Builder-stage-IV-quiz-complete/static/css/main.1884b737.chunk.css.map",
+    "static/js/2.c850ce04.chunk.js.LICENSE.txt": "/project-Builder-stage-IV-quiz-complete/static/js/2.c850ce04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acaa61e0.js",
+    "static/js/2.c850ce04.chunk.js",
+    "static/css/main.1884b737.chunk.css",
+    "static/js/main.b40180b8.chunk.js"
+  ]
+}
