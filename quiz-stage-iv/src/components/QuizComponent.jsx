@@ -109,8 +109,8 @@ componentWillUnmount() {
                             <div id="show" style={{display:'none'}}>
                                 <h2>Time is up. Please click on Quit button to check the result</h2>
                             </div>
-                            <div id="hide">
-                            <h1>Question</h1>
+                            {/* <div id="hide"> */}
+                                <h1>Question</h1>
                             <div className="question-container">
                                 <h4>{resultdata.id} of 10</h4>
                                 <h3>{resultdata.question}</h3>
@@ -122,7 +122,7 @@ componentWillUnmount() {
                                 <button className="button" onClick={this.checkAnswer} value={resultdata.options[2]}>{resultdata.options[2]}</button>
                                 <button className="button" onClick={this.checkAnswer} value={resultdata.options[3]}>{resultdata.options[3]}</button>
                             </div>
-                            </div>
+                            {/* </div> */}
                             <div className="buttons">
                                 <button onClick={this.previousQues}>Previous</button>
                                 <button onClick={ this.nextQues}>Next</button>
