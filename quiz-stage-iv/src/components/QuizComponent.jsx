@@ -54,8 +54,9 @@ export default class QuizComponent extends Component {
             this.nextQues()
             this.setState({
                 correct : this.state.correct+1
-                // this.props.correctCorrect()
+                
             })
+            this.props.checkCorrect()
             
         }
         else
