@@ -26,7 +26,7 @@ export default class ResultComponent extends Component{
                 </div>
                 <div className="button-container">
                     <button><Link to="/QuizComponent" className="link">Play Again</Link></button>
-                    <button><Link to="/project-Builder-stage-IV-quiz-complete" className="link">Back to Home</Link></button>
+                    <button><Link to="/HomeComponent" className="link">Back to Home</Link></button>
                 </div>
             </div>
         )
