@@ -36,6 +36,7 @@ export default class QuizComponent extends Component {
         }
     }
 
+    //for hiding the popup button
     hide = () => {
         let btn = document.getElementById('answers')
         btn.style.display = 'none'
@@ -66,9 +67,12 @@ export default class QuizComponent extends Component {
             btn.style.animation = 'hideIt 1s forwards'
             btn.style.display = "block"
             this.nextQues()
-        }
+            this.setState({
+                wrong: (this.state.attempt - this.state.correct)+1
+        })
+        this.props.checkWrong()
     }
-
+}
    componentDidMount(){
        axios.get('https://my-json-server.typicode.com/Naveen132895/quiz-api/questions').then((res)=>{
             this.setState({
@@ -100,7 +104,7 @@ componentWillUnmount() {
     render() {
         const isdata = this.state.datas.length
         const resultdata = this.state.datas[this.state.indexValue]
-        console.log(this.state.correct)
+        //console.log(this.state.correct)
             return (
                <>
                     
@@ -110,7 +114,7 @@ componentWillUnmount() {
                             <div id="show" style={{display:'none'}}>
                                 <h2>Time is up. Please click on Quit button to check the result</h2>
                             </div>
-                            {/* <div id="hide"> */}
+                            <div id="hide">
                                 <h1>Question</h1>
                             <div className="question-container">
                                 <h4>{resultdata.id} of 10</h4>
@@ -123,7 +127,7 @@ componentWillUnmount() {
                                 <button className="button" onClick={this.checkAnswer} value={resultdata.options[2]}>{resultdata.options[2]}</button>
                                 <button className="button" onClick={this.checkAnswer} value={resultdata.options[3]}>{resultdata.options[3]}</button>
                             </div>
-                            {/* </div> */}
+                            </div>
                             <div className="buttons">
                                 <button onClick={this.previousQues}>Previous</button>
                                 <button onClick={ this.nextQues}>Next</button>

@@ -10,6 +10,7 @@ class App extends Component{
     super()
     this.state={
       correct: 0, 
+      wrong: 0,
       attempt:0
     }
   }
@@ -26,6 +27,12 @@ class App extends Component{
     })
   }
 
+  checkWrong = () =>{
+    this.setState({
+      wrong: (this.state.attempt - this.state.correct)+1
+    })
+  }
+
   render(){
   return(
     <div className ="App">
@@ -35,7 +42,7 @@ class App extends Component{
             <HomeComponent />
           </Route>
           <Route path="/QuizComponent">
-            <QuizComponent checkCorrect={this.checkCorrect} isAttempt={this.isAttempt}/>
+            <QuizComponent checkCorrect={this.checkCorrect} isAttempt={this.isAttempt} checkWrong={this.checkWrong}/>
           </Route>
           <Route path='/ResultComponent'>
             <ResultComponent {...this.state} />
