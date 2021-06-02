@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/project-Builder-stage-IV-quiz-complete/static/css/main.c5637f5c.chunk.css",
-    "main.js": "/project-Builder-stage-IV-quiz-complete/static/js/main.d5cfb5ff.chunk.js",
-    "main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/main.d5cfb5ff.chunk.js.map",
+    "main.css": "/project-Builder-stage-IV-quiz-complete/static/css/main.36052687.chunk.css",
+    "main.js": "/project-Builder-stage-IV-quiz-complete/static/js/main.5921b5ed.chunk.js",
+    "main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/main.5921b5ed.chunk.js.map",
     "runtime-main.js": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.acaa61e0.js",
     "runtime-main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.acaa61e0.js.map",
     "static/js/2.c850ce04.chunk.js": "/project-Builder-stage-IV-quiz-complete/static/js/2.c850ce04.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8dd02b08.chunk.js": "/project-Builder-stage-IV-quiz-complete/static/js/3.8dd02b08.chunk.js",
     "static/js/3.8dd02b08.chunk.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/3.8dd02b08.chunk.js.map",
     "index.html": "/project-Builder-stage-IV-quiz-complete/index.html",
-    "static/css/main.c5637f5c.chunk.css.map": "/project-Builder-stage-IV-quiz-complete/static/css/main.c5637f5c.chunk.css.map",
+    "static/css/main.36052687.chunk.css.map": "/project-Builder-stage-IV-quiz-complete/static/css/main.36052687.chunk.css.map",
     "static/js/2.c850ce04.chunk.js.LICENSE.txt": "/project-Builder-stage-IV-quiz-complete/static/js/2.c850ce04.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.acaa61e0.js",
     "static/js/2.c850ce04.chunk.js",
-    "static/css/main.c5637f5c.chunk.css",
-    "static/js/main.d5cfb5ff.chunk.js"
+    "static/css/main.36052687.chunk.css",
+    "static/js/main.5921b5ed.chunk.js"
   ]
 }
